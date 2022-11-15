@@ -24,7 +24,9 @@ and
   docker:dind \
   --storage-driver overlay2
 
-Run the next command in the Dockerfile directory "docker build -t jenkins_for_devalore"
+Run the next command in the Dockerfile directory: 
+docker build -t jenkins_for_devalore
+
 In same directory run 
 
   docker run \
