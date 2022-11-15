@@ -15,11 +15,6 @@ def mock_currency_data():
     ]
 
 
-# write test for get_currency_names_rate_lower_than. Write hard coded json to check 9 and 10
-# (9 lower than 10 and 10 higher than 10) higher shouldn't get through and lower should
-# Run test with, 5 and get usd (usd = 9) run test with 10 and get error that we don't need above 10.
-
-
 def test_rate_higher_than_zero():
     assert RATE_LOWER_THAN_LIMIT > 0
 
