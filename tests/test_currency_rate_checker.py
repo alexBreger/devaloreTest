@@ -10,7 +10,7 @@ def mock_currency_data():
     return [{
         "USD": 10,
         "EUR": 9,
-        "NIS": -1  # a bug was found
+        "NIS": -1  # a bug was found via this test, negative rates could be returned as well.
     },
     ]
 
